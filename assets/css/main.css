@@ -1,0 +1,74 @@
+.success{
+    color: green;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: rgba(0, 128, 0, 0.19);
+    border: 1px solid green;
+}
+.error{
+    padding: 10px 10px;
+    color: red;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.06);
+    border: 1px solid red;
+}
+.mt10{
+    margin-top: 10px;
+}
+.pn{
+    padding: 0;
+}
+.pl0{
+    padding-left: 0;
+}
+.mw200px{
+    min-width: 200px;
+}
+.jumbotron{
+padding: 0!important;
+ }
+
+@media screen and (max-width: 700px) {
+   .container1{
+       padding-left: 2px!important;
+       padding-right: 2px!important;
+   }
+    .col-sm-12{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .small-display{
+        display: inline-block!important;
+    }
+    .big-display{
+        display: none;
+    }
+}
+.back-to-top {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background: url('../images/triangle.png') center 9px no-repeat #0077BE;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 67px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 900;
+    display: none;
+    text-decoration: none;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    text-decoration: none !important;
+    outline: 0 !important;
+}
+.datepicker{
+    z-index: 100000!important;
+}
